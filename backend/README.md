@@ -18,7 +18,7 @@ Educational project focused in learning:
 
 ## Pre-requisites
 
-We need to run this project a Postgresql database with theese attibutes:
+We need to build for this project a local Postgresql database with theese attibutes:
 
 - factions table:
 
@@ -54,4 +54,20 @@ To get started we need to open the backend folder in our terminal, install and e
 cd backend
 npm install
 npm start
+```
+
+## Query Example
+
+An good example given the right databases should look like:
+
+```bash
+[
+  {
+    "id": 1,
+    "name": "Wing Gundam",
+    "serial_number": "XXXG-01W",
+    "faction": "Space Colonies"
+  }
+]
+
 ```
