@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Mobile App based on React-Native"
+message: "If you use this project, please cite it as below."
+authors:
+  - family-names: Vilches Marabolí
+    given-names: Eduardo
+year: 2025
+license: MIT
+url: https://github.com/edvilches/mobile-react-native-demo.git
