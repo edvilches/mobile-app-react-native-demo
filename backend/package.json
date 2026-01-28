@@ -1,0 +1,16 @@
+{
+  "name": "gundam-backend",
+  "version": "1.0.0",
+  "description": "Backend Node.js para API Gundam Wing",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
