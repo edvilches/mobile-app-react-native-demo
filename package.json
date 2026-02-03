@@ -1,0 +1,26 @@
+{
+  "name": "mobile-app-react-native-demo",
+  "version": "1.0.0",
+  "description": "In this project I develop a minimal react-native web and mobile app. This app displays a filter menu and images to select Mobile Suits from Gundam Wing Franchise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edvilches/mobile-app-react-native-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/edvilches/mobile-app-react-native-demo/issues"
+  },
+  "homepage": "https://github.com/edvilches/mobile-app-react-native-demo#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "pg": "^8.17.2"
+  }
+}

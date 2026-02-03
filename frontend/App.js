@@ -9,7 +9,7 @@ import {
 import { Picker } from '@react-native-picker/picker';
 
 // URL del backend
-const API_URL = 'http://localhost:3000';
+const API_URL = process.env.EXPO_PUBLIC_API_URL;
 
 export default function App() {
   // ----- ESTADO -----
@@ -30,13 +30,15 @@ export default function App() {
       });
   }, []);
 
+  //console.log(response);
+
   // ----- EFECTO 2: cargar mobile suits cuando cambia la facción -----
   useEffect(() => {
     if (!selectedFaction) return;
 
     setLoading(true);
 
-    fetch(`${API_URL}/mobile_suits?faction_id=${selectedFaction}`)
+    fetch(`${API_URL}/mobile-suits?faction_id=${selectedFaction}`)
       .then((response) => response.json())
       .then((data) => {
         setMobileSuits(data);
