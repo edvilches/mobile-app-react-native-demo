@@ -2,6 +2,14 @@
 
 This is the mobile app frontend project which reads and renders the Gundam Backend Database (explained before in the backend project).
 
+# Install & set-up
+
+To run this project properly you need to add a .env file with sensitive variables in the /frontend directory:
+
+```bash
+EXPO_PUBLIC_API_URL=[Your Server IP Adress]:3000
+```
+
 # Getting Started
 
 The easiest way to run the frontend app is using the following expo command:
