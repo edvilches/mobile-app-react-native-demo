@@ -1,3 +1,4 @@
 bbdd.txt
 backend/.env
 node_modules/**
+.vscode
